@@ -17,7 +17,7 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
+          <Col md={6} lg={4} className="project-card">
             <ProjectCard
               imgPath={Picrestourantapps}
               isBlog={false}
@@ -27,7 +27,7 @@ function Projects() {
               demoLink="https://habibsyuhada.github.io/dicoding-restaurant-apps"
             />
           </Col>
-          <Col md={4} className="project-card">
+          <Col md={6} lg={4} className="project-card">
             <ProjectCard
               imgPath={Picthemovie}
               isBlog={false}
@@ -37,7 +37,7 @@ function Projects() {
               demoLink="https://habibsyuhada.github.io/themovie/"
             />
           </Col>
-          <Col md={4} className="project-card">
+          <Col md={6} lg={4} className="project-card">
             <ProjectCard
               imgPath={Picthemovie}
               isBlog={false}
