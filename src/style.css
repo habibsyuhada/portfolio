@@ -1,3 +1,4 @@
+/* https://coolors.co/00dfc0-002925-001412-0a0416-00ccb1 */
 html {
   --section-background-color: linear-gradient(
     to bottom left,
@@ -32,10 +33,31 @@ button:focus {
   width: 100%;
   height: 100%;
   z-index: 999999;
-  background-color: #0c0513;
-  background-image: url(./Assets/pre.svg);
-  background-repeat: no-repeat;
-  background-position: center;
+  background-color: #001412;
+  /* background-image: url(./Assets/pre.svg); */
+  /* background-repeat: no-repeat; */
+  /* background-position: center; */
+	/* text-align: center; */
+}
+
+.loader-icon {
+	top: 47.5%;
+  left: 47.5%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+	position: absolute;
+	color: var(--imp-text-color) !important;
+	animation: spin 1s infinite linear;
+	font-size: 5rem;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 #preloader-none {

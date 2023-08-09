@@ -1,24 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.95a1076b.css",
-    "main.js": "/portfolio/static/js/main.0b22ec78.js",
+    "main.css": "/portfolio/static/css/main.f7ef1ee9.css",
+    "main.js": "/portfolio/static/js/main.bbd008d2.js",
     "static/js/415.4d6acbeb.chunk.js": "/portfolio/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/about.png": "/portfolio/static/media/about.d672e95754246d7f3603.png",
+    "static/media/home-main.png": "/portfolio/static/media/home-main.3660db7c5e62ba3366e0.png",
     "static/media/restourant-apps.png": "/portfolio/static/media/restourant-apps.56810f3a1406a917115f.png",
     "static/media/themovie.png": "/portfolio/static/media/themovie.2d10327a4b983dbc1806.png",
     "static/media/Resume-Habib-Syuhada.pdf": "/portfolio/static/media/Resume-Habib-Syuhada.ebde643525c68d5e95be.pdf",
-    "static/media/home-main.svg": "/portfolio/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
-    "static/media/about.png": "/portfolio/static/media/about.aee0f771fbfc1e7b8fa8.png",
     "static/media/avatar.jfif": "/portfolio/static/media/avatar.3441d330367a90e9ce31.jfif",
-    "static/media/pre.svg": "/portfolio/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/portfolio/index.html",
-    "main.95a1076b.css.map": "/portfolio/static/css/main.95a1076b.css.map",
-    "main.0b22ec78.js.map": "/portfolio/static/js/main.0b22ec78.js.map",
+    "main.f7ef1ee9.css.map": "/portfolio/static/css/main.f7ef1ee9.css.map",
+    "main.bbd008d2.js.map": "/portfolio/static/js/main.bbd008d2.js.map",
     "415.4d6acbeb.chunk.js.map": "/portfolio/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.95a1076b.css",
-    "static/js/main.0b22ec78.js"
+    "static/css/main.f7ef1ee9.css",
+    "static/js/main.bbd008d2.js"
   ]
 }
