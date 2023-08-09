@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.68f2612e.css",
+    "main.js": "/portfolio/static/js/main.5cb69772.js",
+    "static/js/108.1df154f4.chunk.js": "/portfolio/static/js/108.1df154f4.chunk.js",
+    "static/js/27.2163fce8.chunk.js": "/portfolio/static/js/27.2163fce8.chunk.js",
+    "static/media/about.png": "/portfolio/static/media/about.d672e95754246d7f3603.png",
+    "static/media/home-main.png": "/portfolio/static/media/home-main.3660db7c5e62ba3366e0.png",
+    "static/media/portfolio.png": "/portfolio/static/media/portfolio.62d002091af2ea508b82.png",
+    "static/media/restourant-apps.png": "/portfolio/static/media/restourant-apps.56810f3a1406a917115f.png",
+    "static/media/themovie.png": "/portfolio/static/media/themovie.2d10327a4b983dbc1806.png",
+    "static/media/Resume-Habib-Syuhada.pdf": "/portfolio/static/media/Resume-Habib-Syuhada.ebde643525c68d5e95be.pdf",
+    "static/media/avatar.jfif": "/portfolio/static/media/avatar.3441d330367a90e9ce31.jfif",
+    "index.html": "/portfolio/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.68f2612e.css",
+    "static/js/main.5cb69772.js"
+  ]
+}
