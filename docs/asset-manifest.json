@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.95a1076b.css",
-    "main.js": "/portfolio/static/js/main.5d4eb911.js",
+    "main.js": "/portfolio/static/js/main.0b22ec78.js",
     "static/js/415.4d6acbeb.chunk.js": "/portfolio/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/restourant-apps.png": "/portfolio/static/media/restourant-apps.56810f3a1406a917115f.png",
@@ -13,12 +13,12 @@
     "static/media/pre.svg": "/portfolio/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/portfolio/index.html",
     "main.95a1076b.css.map": "/portfolio/static/css/main.95a1076b.css.map",
-    "main.5d4eb911.js.map": "/portfolio/static/js/main.5d4eb911.js.map",
+    "main.0b22ec78.js.map": "/portfolio/static/js/main.0b22ec78.js.map",
     "415.4d6acbeb.chunk.js.map": "/portfolio/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.95a1076b.css",
-    "static/js/main.5d4eb911.js"
+    "static/js/main.0b22ec78.js"
   ]
 }
