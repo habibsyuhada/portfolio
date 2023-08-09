@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import Picthemovie from "../../Assets/Projects/themovie.png";
 import Picrestourantapps from "../../Assets/Projects/restourant-apps.png";
+import Picportfolio from "../../Assets/Projects/portfolio.png";
 
 function Projects() {
   return (
@@ -39,7 +40,7 @@ function Projects() {
           </Col>
           <Col md={6} lg={4} className="project-card">
             <ProjectCard
-              imgPath={Picthemovie}
+              imgPath={Picportfolio}
               isBlog={false}
               title="Portfolio"
               description='Portfolio is a web application built using JavaScript with the React.js framework. The purpose of this application is to showcase a collection of projects I have created, along with information about myself. With an appealing design and a responsive interface, this application provides an opportunity for me to exhibit my work and skills to the world. Visitors can easily navigate and explore my personal portfolio to view completed projects, gain insights into my capabilities and experiences, and find contact information for collaboration or feedback. Portfolio offers a perfect platform for me to highlight my expertise and creativity to potential recruiters, clients, or colleagues.'
