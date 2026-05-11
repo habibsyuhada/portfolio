@@ -2,9 +2,17 @@ import { FaGithub, FaLinkedin, FaDownload } from 'react-icons/fa';
 import { personalInfo } from '../../../data/personalInfo';
 import { scrollToSection } from '../../../hooks/useScrollSpy';
 import Button from '../../ui/Button/Button';
+import CVNoticeModal from '../../../components/ui/Modal/CVNoticeModal';
+import { useState } from 'react';
 import styles from './Hero.module.css';
 
 export default function Hero() {
+  const [showCVNotice, setShowCVNotice] = useState(false);
+
+  const handleDownloadCV = () => {
+    setShowCVNotice(true);
+  };
+
   return (
     <section id="home" className={styles.hero}>
       <div className="container">
@@ -25,7 +33,7 @@ export default function Hero() {
               <Button
                 variant="outline"
                 size="lg"
-                href={personalInfo.resume}
+                onClick={handleDownloadCV}
                 icon={<FaDownload />}
               >
                 Download CV
@@ -64,6 +72,13 @@ export default function Hero() {
       <div className={styles.scrollIndicator}>
         <span className={styles.scrollLine}></span>
       </div>
+
+      {showCVNotice && (
+        <CVNoticeModal
+          linkedinUrl={personalInfo.social.linkedin}
+          onClose={() => setShowCVNotice(false)}
+        />
+      )}
     </section>
   );
 }
