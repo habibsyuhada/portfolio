@@ -5,11 +5,15 @@ export default function ProjectCard({ project }) {
   return (
     <div className={styles.card}>
       <div className={styles.imageWrapper}>
-        <div className={styles.imagePlaceholder}>
-          <span className={styles.projectInitials}>
-            {project.title.split(' ').map(w => w[0]).join('').slice(0, 2)}
-          </span>
-        </div>
+        {project.image ? (
+          <img src={project.image} alt={project.title} className={styles.projectImage} />
+        ) : (
+          <div className={styles.imagePlaceholder}>
+            <span className={styles.projectInitials}>
+              {project.title.split(' ').map(w => w[0]).join('').slice(0, 2)}
+            </span>
+          </div>
+        )}
         {project.featured && (
           <span className={styles.featured}>Featured</span>
         )}

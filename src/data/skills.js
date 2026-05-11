@@ -1,21 +1,27 @@
 import data from './portfolio.json';
 import { getIcon } from './iconMap';
 
-// Add icon components to skills data
-const addIcons = (items) => items.map(skill => ({ ...skill, icon: getIcon(skill.icon) }));
+// Map skill names to icons
+export const skills = {};
+export const skillsCategories = [];
 
-export const skills = {
-  programming: addIcons(data.skills.programming || []),
-  frontend: addIcons(data.skills.frontend || []),
-  backend: addIcons(data.skills.backend || []),
-  database: addIcons(data.skills.database || []),
-  devops: addIcons(data.skills.devops || [])
-};
+Object.keys(data.skills).forEach(category => {
+  skills[category] = data.skills[category].map(skill => ({
+    ...skill,
+    icon: getIcon(skill.name)
+  }));
 
-export const skillsCategories = [
-  { id: 'programming', title: 'Programming Languages', items: skills.programming },
-  { id: 'frontend', title: 'Frontend', items: skills.frontend },
-  { id: 'backend', title: 'Backend Frameworks', items: skills.backend },
-  { id: 'database', title: 'Databases', items: skills.database },
-  { id: 'devops', title: 'DevOps & Tools', items: skills.devops }
-];
+  const titleMap = {
+    programming: 'Programming Languages',
+    frontend: 'Frontend',
+    backend: 'Backend Frameworks',
+    database: 'Databases',
+    devops: 'DevOps & Tools'
+  };
+
+  skillsCategories.push({
+    id: category,
+    title: titleMap[category] || category,
+    items: skills[category]
+  });
+});
