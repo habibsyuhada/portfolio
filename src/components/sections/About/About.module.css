@@ -1,0 +1,136 @@
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: var(--gap-xl);
+  align-items: start;
+}
+
+.imageWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-accent) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--shadow-lg);
+}
+
+.initials {
+  font-size: 5rem;
+  font-weight: 800;
+  color: white;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-lg);
+}
+
+.intro {
+  font-size: var(--text-lg);
+  line-height: 1.8;
+  color: var(--color-text-light);
+}
+
+.details {
+  display: grid;
+  gap: var(--gap-md);
+}
+
+.detailItem {
+  display: flex;
+  align-items: center;
+  gap: var(--gap-md);
+  padding: var(--gap-md);
+  background-color: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  transition: all var(--transition-normal);
+}
+
+.detailItem:hover {
+  border-color: var(--color-primary);
+  box-shadow: var(--shadow-sm);
+  transform: translateX(4px);
+}
+
+.detailIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius-md);
+  background-color: var(--color-primary);
+  color: white;
+  font-size: 1.2rem;
+  flex-shrink: 0;
+}
+
+.detailContent {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.detailLabel {
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+}
+
+.detailValue {
+  font-size: var(--text-base);
+  color: var(--color-text);
+  font-weight: 500;
+}
+
+.detailValue[href] {
+  color: var(--color-primary);
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+
+.detailValue[href]:hover {
+  color: var(--color-primary-hover);
+  text-decoration: underline;
+}
+
+@media (max-width: 992px) {
+  .content {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .imageWrapper {
+    order: -1;
+  }
+
+  .image {
+    width: 220px;
+    height: 220px;
+  }
+
+  .initials {
+    font-size: 4rem;
+  }
+
+  .detailItem {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .detailItem:hover {
+    transform: translateY(-4px);
+  }
+}

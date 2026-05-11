@@ -1,0 +1,39 @@
+.section {
+  padding: var(--section-padding);
+}
+
+.alt {
+  background-color: var(--color-bg-alt);
+}
+
+.header {
+  text-align: center;
+  margin-bottom: var(--gap-xl);
+}
+
+.header h2 {
+  position: relative;
+  display: inline-block;
+}
+
+.header h2::after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 4px;
+  background: linear-gradient(90deg, var(--color-primary), var(--color-accent));
+  border-radius: var(--radius-full);
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: var(--section-padding-sm);
+  }
+
+  .header {
+    margin-bottom: var(--gap-lg);
+  }
+}

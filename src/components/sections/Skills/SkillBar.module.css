@@ -1,0 +1,57 @@
+.skillBar {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-xs);
+}
+
+.skillInfo {
+  display: flex;
+  align-items: center;
+  gap: var(--gap-sm);
+}
+
+.skillIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: var(--radius-md);
+  background-color: var(--color-bg-alt);
+  color: var(--color-primary);
+  font-size: 1rem;
+}
+
+.skillName {
+  flex: 1;
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.skillLevel {
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+  font-weight: 600;
+}
+
+.progressBar {
+  width: 100%;
+  height: 8px;
+  background-color: var(--color-bg-alt);
+  border-radius: var(--radius-full);
+  overflow: hidden;
+}
+
+.progress {
+  height: 100%;
+  background: linear-gradient(90deg, var(--color-primary) 0%, var(--color-accent) 100%);
+  border-radius: var(--radius-full);
+  transition: width 1s ease-out;
+  animation: fillBar 1.5s ease-out forwards;
+}
+
+@keyframes fillBar {
+  from {
+    width: 0%;
+  }
+}

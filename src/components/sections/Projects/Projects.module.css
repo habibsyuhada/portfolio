@@ -1,0 +1,11 @@
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: var(--gap-lg);
+}
+
+@media (max-width: 576px) {
+  .projects {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,110 @@
+.footer {
+  background-color: var(--color-bg-alt);
+  padding: var(--gap-xl) 0 var(--gap-md);
+  border-top: 1px solid var(--color-border);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-lg);
+  margin-bottom: var(--gap-lg);
+}
+
+.info {
+  text-align: center;
+}
+
+.name {
+  font-size: var(--text-2xl);
+  margin-bottom: var(--gap-xs);
+  color: var(--color-text);
+}
+
+.tagline {
+  color: var(--color-text-light);
+  max-width: 400px;
+}
+
+.social {
+  display: flex;
+  gap: var(--gap-md);
+}
+
+.socialLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius-full);
+  background-color: var(--color-bg);
+  color: var(--color-text-light);
+  border: 1px solid var(--color-border);
+  transition: all var(--transition-normal);
+  font-size: 1.1rem;
+}
+
+.socialLink:hover {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+  color: white;
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: var(--gap-md);
+  border-top: 1px solid var(--color-border);
+}
+
+.copyright {
+  color: var(--color-text-muted);
+  font-size: var(--text-sm);
+  margin: 0;
+}
+
+.scrollTop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-full);
+  background-color: var(--color-bg);
+  color: var(--color-text-light);
+  border: 1px solid var(--color-border);
+  transition: all var(--transition-normal);
+  cursor: pointer;
+}
+
+.scrollTop:hover {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+  color: white;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .content {
+    gap: var(--gap-md);
+  }
+
+  .bottom {
+    flex-direction: column;
+    gap: var(--gap-sm);
+    text-align: center;
+  }
+
+  .copyright {
+    order: 2;
+  }
+
+  .scrollTop {
+    order: 1;
+  }
+}

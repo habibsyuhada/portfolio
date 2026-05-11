@@ -1,0 +1,188 @@
+{
+  "personalInfo": {
+    "name": "Habib Syuhada",
+    "title": "Senior IT Programmer / Development Lead",
+    "tagline": "Senior IT Programmer with 7+ years of experience developing enterprise web, mobile, and digital systems across manufacturing, EPC, and oil & gas industries.",
+    "email": "habibsyuhada.1109@gmail.com",
+    "location": "Batam, Indonesia",
+    "github": "https://github.com/habibsyuhada",
+    "linkedin": "https://linkedin.com/in/habib-syuhada",
+    "resume": "/cv.pdf",
+    "about": "Senior IT Programmer with 7+ years of experience in developing enterprise web, mobile, and digital systems across manufacturing, EPC, and oil & gas industries. Experienced in leading development teams, delivering internal business applications, and driving digital transformation initiatives to improve operational efficiency and process accuracy. Strong hands-on expertise in full-stack development, system integration, database management, and application support.",
+    "experience": {
+      "years": "7+",
+      "description": "Years of experience in enterprise software development"
+    },
+    "social": {
+      "github": "https://github.com/habibsyuhada",
+      "linkedin": "https://linkedin.com/in/habib-syuhada",
+      "email": "mailto:habibsyuhada.1109@gmail.com"
+    }
+  },
+  "skills": {
+    "programming": [
+      { "name": "JavaScript", "level": 95, "icon": "FaJs" },
+      { "name": "PHP", "level": 90, "icon": "FaJs" },
+      { "name": "Python", "level": 85, "icon": "FaJs" },
+      { "name": "C#", "level": 85, "icon": "FaJs" },
+      { "name": "Go", "level": 75, "icon": "FaJs" },
+      { "name": "Java", "level": 75, "icon": "FaJs" }
+    ],
+    "frontend": [
+      { "name": "React.js", "level": 90, "icon": "FaReact" },
+      { "name": "Next.js", "level": 85, "icon": "SiNextdotjs" },
+      { "name": "React Native", "level": 85, "icon": "FaReact" },
+      { "name": "HTML5", "level": 95, "icon": "FaHtml5" },
+      { "name": "CSS3", "level": 90, "icon": "FaCss3Alt" },
+      { "name": "jQuery", "level": 90, "icon": "FaJs" }
+    ],
+    "backend": [
+      { "name": "Node.js", "level": 85, "icon": "FaNode" },
+      { "name": "Express.js", "level": 85, "icon": "FaNode" },
+      { "name": "NestJS", "level": 80, "icon": "FaNode" },
+      { "name": "Laravel", "level": 90, "icon": "FaJs" },
+      { "name": "CodeIgniter", "level": 90, "icon": "FaJs" },
+      { "name": "ASP.NET", "level": 85, "icon": "FaJs" },
+      { "name": "FastAPI", "level": 80, "icon": "FaJs" },
+      { "name": "Flask", "level": 75, "icon": "FaJs" }
+    ],
+    "database": [
+      { "name": "PostgreSQL", "level": 90, "icon": "DiMysql" },
+      { "name": "MySQL", "level": 90, "icon": "DiMysql" },
+      { "name": "MongoDB", "level": 75, "icon": "DiMongodb" },
+      { "name": "SQL Server", "level": 85, "icon": "DiMysql" },
+      { "name": "Firebase", "level": 70, "icon": "DiMongodb" }
+    ],
+    "devops": [
+      { "name": "Git", "level": 90, "icon": "FaGitAlt" },
+      { "name": "Docker", "level": 80, "icon": "FaDocker" },
+      { "name": "Kubernetes", "level": 70, "icon": "FaDocker" },
+      { "name": "Linux", "level": 85, "icon": "FaDocker" },
+      { "name": "Jenkins", "level": 75, "icon": "FaGithub" },
+      { "name": "Grafana", "level": 80, "icon": "FaGithub" },
+      { "name": "Prometheus", "level": 75, "icon": "FaGithub" }
+    ]
+  },
+  "projects": [
+    {
+      "id": 1,
+      "title": "Attendance Device Management System",
+      "description": "A centralized system for monitoring and managing attendance devices across multiple locations. Enables fast synchronization of facial recognition data between machines and collects attendance records in real time.",
+      "techStack": ["C#", "ASP.NET", "PHP", "CodeIgniter", "PostgreSQL", "SQL Server"],
+      "role": "Senior IT Programmer",
+      "featured": true
+    },
+    {
+      "id": 2,
+      "title": "Digital Land Reservation Platform",
+      "description": "A digital platform for booking land parcels for reservation. Users can select and map the land they want to rent, with visibility into land usage across past, current, and future periods.",
+      "techStack": ["JavaScript", "Next.js", "Node.js", "NestJS", "PostgreSQL"],
+      "role": "Senior IT Programmer",
+      "featured": true
+    },
+    {
+      "id": 3,
+      "title": "Vehicle Entry and Exit Monitoring System",
+      "description": "A gate monitoring system integrated with cameras to record vehicle entry and exit activities. Uses OCR technology to automatically identify vehicles passing through the gate.",
+      "techStack": ["JavaScript", "Next.js", "Python", "FastAPI", "Go"],
+      "role": "Senior IT Programmer",
+      "featured": true
+    },
+    {
+      "id": 4,
+      "title": "Safety Observation AI",
+      "description": "An AI-based computer vision system connected to surveillance cameras to detect workplace safety violations such as missing safety equipment and restricted-area breaches.",
+      "techStack": ["JavaScript", "Next.js", "Python", "FastAPI", "Go"],
+      "role": "Senior IT Programmer",
+      "featured": true
+    },
+    {
+      "id": 5,
+      "title": "Role Based Access Control System",
+      "description": "An access management system for handling user roles and permissions across multiple enterprise applications. Supports 20+ applications and manages access for over 1,000 users.",
+      "techStack": ["JavaScript", "Next.js", "Node.js", "NestJS", "PostgreSQL"],
+      "role": "Senior IT Programmer",
+      "featured": true
+    },
+    {
+      "id": 6,
+      "title": "Portal and Announcement Board",
+      "description": "A centralized portal connecting dozens of internal applications in a single place. Serves as an internal communication hub for company announcements and notifications.",
+      "techStack": ["JavaScript", "Next.js", "Node.js", "NestJS", "PostgreSQL"],
+      "role": "Senior IT Programmer",
+      "featured": false
+    },
+    {
+      "id": 7,
+      "title": "Server Monitoring Dashboard",
+      "description": "A server monitoring dashboard built with Grafana and Prometheus to track the health and performance of 15+ servers in real time for early issue detection.",
+      "techStack": ["Prometheus", "Grafana", "Bash"],
+      "role": "Senior IT Programmer",
+      "featured": false
+    },
+    {
+      "id": 8,
+      "title": "Project Control Management Mobile App",
+      "description": "A mobile application for project operations including quality inspections, activity reporting, security patrol records, and warehouse material management. Published on Google Play.",
+      "techStack": ["JavaScript", "React Native", "PHP", "Laravel"],
+      "role": "Senior IT Programmer",
+      "featured": true
+    },
+    {
+      "id": 9,
+      "title": "HSE Mobile Application",
+      "description": "A mobile application for workplace safety and HSE compliance. Features incident reporting, safety audits, HSE checklists, and compliance tracking.",
+      "techStack": ["JavaScript", "React Native", "PHP", "Laravel"],
+      "role": "Senior IT Programmer",
+      "featured": false
+    },
+    {
+      "id": 10,
+      "title": "Engineering Document Control System",
+      "description": "A system to manage engineering drawing files and track the drawing creation workflow. Enables quick search for drawings and monitors engineer KPI performance.",
+      "techStack": ["PHP", "CodeIgniter", "JavaScript", "jQuery", "PostgreSQL"],
+      "role": "IT Programmer",
+      "featured": false
+    },
+    {
+      "id": 11,
+      "title": "Warehouse Management System",
+      "description": "A warehouse management system for stock control, goods receiving, shipment processing, and inventory tracking to improve warehouse efficiency.",
+      "techStack": ["PHP", "CodeIgniter", "JavaScript", "jQuery", "PostgreSQL"],
+      "role": "IT Programmer",
+      "featured": false
+    },
+    {
+      "id": 12,
+      "title": "Safety Helmet Detection System",
+      "description": "A computer vision system to detect whether workers are wearing safety helmets in the workplace using image and video stream analysis.",
+      "techStack": ["JavaScript", "Next.js", "Python"],
+      "role": "Senior IT Programmer",
+      "featured": false
+    },
+    {
+      "id": 13,
+      "title": "Human Resource Management System",
+      "description": "An HR management system supporting overtime management, attendance tracking, leave requests, and administrative processes.",
+      "techStack": ["PHP", "CodeIgniter", "JavaScript", "jQuery", "PostgreSQL"],
+      "role": "IT Programmer",
+      "featured": false
+    },
+    {
+      "id": 14,
+      "title": "Production and Quality Management System",
+      "description": "A system for managing production processes and quality control activities including production recording and quality inspections.",
+      "techStack": ["PHP", "CodeIgniter", "JavaScript", "jQuery", "PostgreSQL"],
+      "role": "IT Programmer",
+      "featured": false
+    },
+    {
+      "id": 15,
+      "title": "Share Folder System",
+      "description": "A web-based system connected to an FTP server for managing user access and directory permissions with secure file access control.",
+      "techStack": ["PHP", "CodeIgniter", "JavaScript", "jQuery", "PostgreSQL"],
+      "role": "IT Programmer",
+      "featured": false
+    }
+  ]
+}
