@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C \"c:\\\\laragon\\\\www\\\\portfolio\" branch -a)",
+      "WebSearch",
+      "Bash(npm create *)",
+      "Bash(npm install *)",
+      "Bash(npm run *)"
+    ]
+  }
+}
