@@ -7,7 +7,7 @@
     "location": "Batam, Indonesia",
     "github": "https://github.com/habibsyuhada",
     "linkedin": "https://linkedin.com/in/habib-syuhada",
-    "resume": "/cv.pdf",
+    "resume": "/portfolio/cv.pdf",
     "about": "Senior IT Programmer with 7+ years of experience in developing enterprise web, mobile, and digital systems across manufacturing, EPC, and oil & gas industries. Experienced in leading development teams, delivering internal business applications, and driving digital transformation initiatives to improve operational efficiency and process accuracy. Strong hands-on expertise in full-stack development, system integration, database management, and application support.",
     "experience": {
       "years": "7+",
@@ -69,8 +69,8 @@
       "title": "Attendance Device Management System",
       "description": "A centralized system for monitoring and managing attendance devices across multiple locations. Enables fast synchronization of facial recognition data between machines and collects attendance records in real time.",
       "images": [
-        "/images/projects/Attendance Device Management System.png",
-        "/images/projects/Attendance Device Management System2.png"
+        "/portfolio/images/projects/Attendance Device Management System.png",
+        "/portfolio/images/projects/Attendance Device Management System2.png"
       ],
       "techStack": ["C#", "ASP.NET", "PHP", "CodeIgniter", "PostgreSQL", "SQL Server"],
       "role": "Senior IT Programmer",
@@ -81,8 +81,8 @@
       "title": "Digital Land Reservation Platform",
       "description": "A digital platform for booking land parcels for reservation. Users can select and map the land they want to rent, with visibility into land usage across past, current, and future periods.",
       "images": [
-        "/images/projects/Digital Land Reservation Platform.png",
-        "/images/projects/Digital Land Reservation Platform2.png"
+        "/portfolio/images/projects/Digital Land Reservation Platform.png",
+        "/portfolio/images/projects/Digital Land Reservation Platform2.png"
       ],
       "techStack": ["JavaScript", "Next.js", "Node.js", "NestJS", "PostgreSQL"],
       "role": "Senior IT Programmer",
@@ -93,7 +93,7 @@
       "title": "Vehicle Entry and Exit Monitoring System",
       "description": "A gate monitoring system integrated with cameras to record vehicle entry and exit activities. Uses OCR technology to automatically identify vehicles passing through the gate.",
       "images": [
-        "/images/projects/Vehicle Entry and Exit Monitoring System.png"
+        "/portfolio/images/projects/Vehicle Entry and Exit Monitoring System.png"
       ],
       "techStack": ["JavaScript", "Next.js", "Python", "FastAPI", "Go"],
       "role": "Senior IT Programmer",
@@ -104,8 +104,8 @@
       "title": "Safety Observation AI",
       "description": "An AI-based computer vision system connected to surveillance cameras to detect workplace safety violations such as missing safety equipment and restricted-area breaches.",
       "images": [
-        "/images/projects/Safety Observation AI.png",
-        "/images/projects/Safety Observation AI2.png"
+        "/portfolio/images/projects/Safety Observation AI.png",
+        "/portfolio/images/projects/Safety Observation AI2.png"
       ],
       "techStack": ["JavaScript", "Next.js", "Python", "FastAPI", "Go"],
       "role": "Senior IT Programmer",
@@ -116,8 +116,8 @@
       "title": "Role Based Access Control System",
       "description": "An access management system for handling user roles and permissions across multiple enterprise applications. Supports 20+ applications and manages access for over 1,000 users.",
       "images": [
-        "/images/projects/Role Based Access Control System.png",
-        "/images/projects/Role Based Access Control System2.png"
+        "/portfolio/images/projects/Role Based Access Control System.png",
+        "/portfolio/images/projects/Role Based Access Control System2.png"
       ],
       "techStack": ["JavaScript", "Next.js", "Node.js", "NestJS", "PostgreSQL"],
       "role": "Senior IT Programmer",
@@ -128,8 +128,8 @@
       "title": "Portal and Announcement Board",
       "description": "A centralized portal connecting dozens of internal applications in a single place. Serves as an internal communication hub for company announcements and notifications.",
       "images": [
-        "/images/projects/Portal and Announcement Board.png",
-        "/images/projects/Portal and Announcement Board2.png"
+        "/portfolio/images/projects/Portal and Announcement Board.png",
+        "/portfolio/images/projects/Portal and Announcement Board2.png"
       ],
       "techStack": ["JavaScript", "Next.js", "Node.js", "NestJS", "PostgreSQL"],
       "role": "Senior IT Programmer",
@@ -140,7 +140,7 @@
       "title": "Server Monitoring Dashboard",
       "description": "A server monitoring dashboard built with Grafana and Prometheus to track the health and performance of 15+ servers in real time for early issue detection.",
       "images": [
-        "/images/projects/Server Monitoring Dashboard.png"
+        "/portfolio/images/projects/Server Monitoring Dashboard.png"
       ],
       "techStack": ["Prometheus", "Grafana", "Bash"],
       "role": "Senior IT Programmer",
@@ -151,8 +151,8 @@
       "title": "Project Control Management Mobile App",
       "description": "A mobile application for project operations including quality inspections, activity reporting, security patrol records, and warehouse material management. Published on Google Play.",
       "images": [
-        "/images/projects/Project Control Management Mobile Application.png",
-        "/images/projects/Project Control Management Mobile Application2.png"
+        "/portfolio/images/projects/Project Control Management Mobile Application.png",
+        "/portfolio/images/projects/Project Control Management Mobile Application2.png"
       ],
       "techStack": ["JavaScript", "React Native", "PHP", "Laravel"],
       "role": "Senior IT Programmer",
@@ -163,8 +163,8 @@
       "title": "HSE Mobile Application",
       "description": "A mobile application for workplace safety and HSE compliance. Features incident reporting, safety audits, HSE checklists, and compliance tracking.",
       "images": [
-        "/images/projects/Health, Safety, and Environment (HSE) Mobile App.png",
-        "/images/projects/Health, Safety, and Environment (HSE) Mobile App2.png"
+        "/portfolio/images/projects/Health, Safety, and Environment (HSE) Mobile App.png",
+        "/portfolio/images/projects/Health, Safety, and Environment (HSE) Mobile App2.png"
       ],
       "techStack": ["JavaScript", "React Native", "PHP", "Laravel"],
       "role": "Senior IT Programmer",
@@ -175,8 +175,8 @@
       "title": "Engineering Document Control System",
       "description": "A system to manage engineering drawing files and track the drawing creation workflow. Enables quick search for drawings and monitors engineer KPI performance.",
       "images": [
-        "/images/projects/Engineering Document Control System.png",
-        "/images/projects/Engineering Document Control System2.png"
+        "/portfolio/images/projects/Engineering Document Control System.png",
+        "/portfolio/images/projects/Engineering Document Control System2.png"
       ],
       "techStack": ["PHP", "CodeIgniter", "JavaScript", "jQuery", "PostgreSQL"],
       "role": "IT Programmer",
@@ -187,8 +187,8 @@
       "title": "Warehouse Management System",
       "description": "A warehouse management system for stock control, goods receiving, shipment processing, and inventory tracking to improve warehouse efficiency.",
       "images": [
-        "/images/projects/Warehouse Management System (WMS).png",
-        "/images/projects/Warehouse Management System (WMS)2.png"
+        "/portfolio/images/projects/Warehouse Management System (WMS).png",
+        "/portfolio/images/projects/Warehouse Management System (WMS)2.png"
       ],
       "techStack": ["PHP", "CodeIgniter", "JavaScript", "jQuery", "PostgreSQL"],
       "role": "IT Programmer",
@@ -199,8 +199,8 @@
       "title": "Safety Helmet Detection System",
       "description": "A computer vision system to detect whether workers are wearing safety helmets in the workplace using image and video stream analysis.",
       "images": [
-        "/images/projects/Safety Helmet Detection System.png",
-        "/images/projects/Safety Helmet Detection System2.png"
+        "/portfolio/images/projects/Safety Helmet Detection System.png",
+        "/portfolio/images/projects/Safety Helmet Detection System2.png"
       ],
       "techStack": ["JavaScript", "Next.js", "Python"],
       "role": "Senior IT Programmer",
@@ -211,8 +211,8 @@
       "title": "Human Resource Management System",
       "description": "An HR management system supporting overtime management, attendance tracking, leave requests, and administrative processes.",
       "images": [
-        "/images/projects/Human Resource Management System.png",
-        "/images/projects/Human Resource Management System2.png"
+        "/portfolio/images/projects/Human Resource Management System.png",
+        "/portfolio/images/projects/Human Resource Management System2.png"
       ],
       "techStack": ["PHP", "CodeIgniter", "JavaScript", "jQuery", "PostgreSQL"],
       "role": "IT Programmer",
@@ -223,8 +223,8 @@
       "title": "Production and Quality Management System",
       "description": "A system for managing production processes and quality control activities including production recording and quality inspections.",
       "images": [
-        "/images/projects/Production and Quality Management System.png",
-        "/images/projects/Production and Quality Management System2.png"
+        "/portfolio/images/projects/Production and Quality Management System.png",
+        "/portfolio/images/projects/Production and Quality Management System2.png"
       ],
       "techStack": ["PHP", "CodeIgniter", "JavaScript", "jQuery", "PostgreSQL"],
       "role": "IT Programmer",
@@ -235,7 +235,7 @@
       "title": "Share Folder System",
       "description": "A web-based system connected to an FTP server for managing user access and directory permissions with secure file access control.",
       "images": [
-        "/images/projects/Share Folder System.png"
+        "/portfolio/images/projects/Share Folder System.png"
       ],
       "techStack": ["PHP", "CodeIgniter", "JavaScript", "jQuery", "PostgreSQL"],
       "role": "IT Programmer",
