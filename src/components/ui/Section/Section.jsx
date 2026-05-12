@@ -9,7 +9,7 @@ export default function Section({ id, title, className = '', children, alternate
 
   return (
     <section id={id} className={classNames}>
-      <div className="container">
+      <div className={"container " + styles.container}>
         {title && (
           <div className={styles.header}>
             <h2>{title}</h2>

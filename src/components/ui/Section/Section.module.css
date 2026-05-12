@@ -36,4 +36,8 @@
   .header {
     margin-bottom: var(--gap-lg);
   }
+
+  .container {
+    padding: 0 !important;
+  }
 }

@@ -86,7 +86,7 @@
   .method {
     flex-direction: row;
     text-align: left;
-    padding: var(--gap-md);
+    padding: var(--gap-sm);
   }
 
   .methodIcon {
@@ -94,7 +94,7 @@
     height: 48px;
     font-size: 1.2rem;
     margin-bottom: 0;
-    margin-right: var(--gap-md);
+    margin-right: var(--gap-sm);
   }
 
   .methodContent {
