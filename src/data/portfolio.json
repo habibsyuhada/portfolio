@@ -101,14 +101,25 @@
     },
     {
       "id": 4,
-      "title": "Safety Observation AI",
-      "description": "An AI-based computer vision system connected to surveillance cameras to detect workplace safety violations such as missing safety equipment and restricted-area breaches.",
+      "title": "HSE Eye Safety (AI Vision)",
+      "description": "An AI vision system that analyzes camera feeds to detect HSE violations on site. It flags workers without complete PPE (safety helmet, safety shoes, and gloves), people who leave the designated walk path, work areas with no fire watcher present, and other safety violations. Detected violations are recorded so the HSE team can review and follow up faster.",
       "images": [
         "/portfolio/images/projects/Safety Observation AI.png",
         "/portfolio/images/projects/Safety Observation AI2.png"
       ],
-      "techStack": ["JavaScript", "Next.js", "Python", "FastAPI", "Go"],
-      "role": "Senior IT Programmer",
+      "techStack": ["Python", "Go", "SolidJS"],
+      "role": "AI Engineer",
+      "featured": true
+    },
+    {
+      "id": 16,
+      "title": "Atria AI Chatbot",
+      "description": "A secure company AI workspace built on a Qwen small language model (SLM), grounded in company procedures and internal application data. Employees can ask about procedures, project progress, and other company information in natural language, so knowledge across the company is easy to find in one place.",
+      "images": [
+        "/portfolio/images/projects/Atria AI Chatbot.png"
+      ],
+      "techStack": ["Java", "Spring", "Kotlin", "Qwen (Small Language Model)"],
+      "role": "AI Engineer",
       "featured": true
     },
     {
