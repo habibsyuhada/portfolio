@@ -101,7 +101,7 @@
     },
     {
       "id": 4,
-      "title": "Safety Observation AI",
+      "title": "HSE Eye Safety (AI Vision)",
       "description": "An AI-based computer vision system connected to surveillance cameras to detect workplace safety violations such as missing safety equipment and restricted-area breaches.",
       "images": [
         "/portfolio/images/projects/Safety Observation AI.png",
